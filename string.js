@@ -15,7 +15,7 @@ console.log(character.indexOf("e")) // returns index number
 console.log("-----------------------");
 
 console.log(" To print the string from required indexing [slice()]:"); 
-console.log(character.slice(2,4)) // returns the character from 2 to 3 (if 4 is removed it will print the whole string)
+console.log(character.slice(1,3,4)) // returns the character from 2 to 3 (if 4 is removed it will print the whole string)
 console.log("-----------------------");
 
 console.log("To change the string case to upper:");
