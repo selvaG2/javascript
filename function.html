@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function countVowel(name){
+            var count=0;
+            for(var i=0;i<name.length;i++){
+                if(name[i]== "a" || name[i]== "e" || name[i]== "i" || name[i]== "o" || name[i]== "u" ){
+                    count+=1;
+                }
+            }
+            console.log(`Hai ${name} u have ${count} vowels in your name. `)
+         }
+        
+        var myName = prompt("Enter your name ");
+         countVowel(myName);
+        </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
+ 
