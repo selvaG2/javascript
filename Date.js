@@ -23,14 +23,14 @@ console.log(date1.getFullYear());
 
 //age calculator
 
-var dobDate = new Date('may 21 2003');
+var dobDate = new Date('march 12 2003');
 var todayDate = new Date();
 
 var age = todayDate.getFullYear()-dobDate.getFullYear();
 
 var month = todayDate.getMonth()-dobDate.getMonth();
 
-if(month<0 || (month === 0 && todayDate.getDate()< todayDate.getDate()));
+if(month<0 || (month === 0 && todayDate.getDate()< dobDate.getDate()));
 age--;
 
 console.log(age);
